@@ -1,5 +1,25 @@
 {
 
-  "migration_id": null
+  "migration_id": 2016010618470716,
+
+  "models": {
+
+    "Car": {
+
+      "table": "cars",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "vin", "type": "int"},
+        {"name": "tire1", "type": "int"},
+        {"name": "tire2", "type": "int"},
+        {"name": "tire3", "type": "int"},
+        {"name": "tire4", "type": "int"},
+        {"name": "created_at", "type": "datetime"}
+      ]
+
+    }
+
+  }
 
 }
